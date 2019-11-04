@@ -1,0 +1,263 @@
+[
+    {
+        "categorie": "IoT",
+        "values": [
+            {
+                "value": 0.3274755766229262,
+                "rate": "English"
+            },
+            {
+                "value": 0.17175964639827979,
+                "rate": "French"
+            },
+            {
+                "value": 0.19347842345374316,
+                "rate": "pt-br"
+            },
+            {
+                "value": 0.26407222488201904,
+                "rate": "German"
+            },
+            {
+                "value": 0.210298266827892,
+                "rate": "Italian"
+            },
+            {
+                "value": 0.20549081721160012,
+                "rate": "Spanish"
+            }
+        ]
+    },
+    {
+        "categorie": "Connected Devices",
+        "values": [
+            {
+                "value": 0.7059752972233463,
+                "rate": "English"
+            },
+            {
+                "value": 0.7893441643770159,
+                "rate": "French"
+            },
+            {
+                "value": 0.7135591952733528,
+                "rate": "pt-br"
+            },
+            {
+                "value": 0.7425620682579851,
+                "rate": "German"
+            },
+            {
+                "value": 0.7908773344081688,
+                "rate": "Italian"
+            },
+            {
+                "value": 0.7291548817739564,
+                "rate": "Spanish"
+            }
+        ]
+    },
+    {
+        "categorie": "Botnet",
+        "values": [
+            {
+                "value": 0.3065495115324585,
+                "rate": "English"
+            },
+            {
+                "value": 0.24513200334488114,
+                "rate": "French"
+            },
+            {
+                "value": 0.17911898885648045,
+                "rate": "pt-br"
+            },
+            {
+                "value": 0.42586006429108814,
+                "rate": "German"
+            },
+            {
+                "value": 0.19968426709660084,
+                "rate": "Italian"
+            },
+            {
+                "value": 0.19263114228608064,
+                "rate": "Spanish"
+            }
+        ]
+    },
+    {
+        "categorie": "Blockchain",
+        "values": [
+            {
+                "value": 0.19544482340019653,
+                "rate": "English"
+            },
+            {
+                "value": 0.1747700394218134,
+                "rate": "French"
+            },
+            {
+                "value": 0.1245980106199985,
+                "rate": "pt-br"
+            },
+            {
+                "value": 0.1915395663771288,
+                "rate": "German"
+            },
+            {
+                "value": 0.13176810425903535,
+                "rate": "Italian"
+            },
+            {
+                "value": 0.14771655918844515,
+                "rate": "Spanish"
+            }
+        ]
+    },
+    {
+        "categorie": "RFID",
+        "values": [
+            {
+                "value": 0.36582076035223615,
+                "rate": "English"
+            },
+            {
+                "value": 0.2604467805519054,
+                "rate": "French"
+            },
+            {
+                "value": 0.1409767407075013,
+                "rate": "pt-br"
+            },
+            {
+                "value": 0.3446754667943369,
+                "rate": "German"
+            },
+            {
+                "value": 0.18366250167943035,
+                "rate": "Italian"
+            },
+            {
+                "value": 0.13742127691669495,
+                "rate": "Spanish"
+            }
+        ]
+    },
+    {
+        "categorie": "DDOS",
+        "values": [
+            {
+                "value": 0.34387344162475675,
+                "rate": "English"
+            },
+            {
+                "value": 0.3244534703141799,
+                "rate": "French"
+            },
+            {
+                "value": 0.2517388377832623,
+                "rate": "pt-br"
+            },
+            {
+                "value": 0.3712468367416729,
+                "rate": "German"
+            },
+            {
+                "value": 0.273310493080747,
+                "rate": "Italian"
+            },
+            {
+                "value": 0.28170607534789005,
+                "rate": "Spanish"
+            }
+        ]
+    },
+    {
+        "categorie": "Zero Day",
+        "values": [
+            {
+                "value": 0.2208798196427539,
+                "rate": "English"
+            },
+            {
+                "value": 0.17443555130808744,
+                "rate": "French"
+            },
+            {
+                "value": 0.1054520978236482,
+                "rate": "pt-br"
+            },
+            {
+                "value": 0.22122289857054922,
+                "rate": "German"
+            },
+            {
+                "value": 0.1388217116753997,
+                "rate": "Italian"
+            },
+            {
+                "value": 0.19119809933250367,
+                "rate": "Spanish"
+            }
+        ]
+    },
+    {
+        "categorie": "VPN",
+        "values": [
+            {
+                "value": 0.5586064705088926,
+                "rate": "English"
+            },
+            {
+                "value": 0.5264365069884124,
+                "rate": "French"
+            },
+            {
+                "value": 0.4725151447161768,
+                "rate": "pt-br"
+            },
+            {
+                "value": 0.5714725394979824,
+                "rate": "German"
+            },
+            {
+                "value": 0.46862824130055086,
+                "rate": "Italian"
+            },
+            {
+                "value": 0.5131048006938945,
+                "rate": "Spanish"
+            }
+        ]
+    },
+    {
+        "categorie": "TOR",
+        "values": [
+            {
+                "value": 0.3445863922770102,
+                "rate": "English"
+            },
+            {
+                "value": 0.3850674949229483,
+                "rate": "French"
+            },
+            {
+                "value": 0.29167601525689923,
+                "rate": "pt-br"
+            },
+            {
+                "value": 0.4683674167293619,
+                "rate": "German"
+            },
+            {
+                "value": 0.30904877065699315,
+                "rate": "Italian"
+            },
+            {
+                "value": 0.3342384130934872,
+                "rate": "Spanish"
+            }
+        ]
+    }
+]
