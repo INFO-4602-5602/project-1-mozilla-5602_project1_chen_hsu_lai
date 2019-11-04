@@ -138,7 +138,7 @@ d3.json("terms.json", function(error, data) {
       .style('font-weight','bold')
       .text("Value");
 
-  svg.select('.y').transition().duration(500).delay(1300).style('opacity','1');
+  svg.select('.y').transition().duration(500).delay(1100).style('opacity','1');
 
   var slice = svg.selectAll(".slice")
       .data(data)
@@ -224,8 +224,8 @@ function update() {
         }
     }
     console.log(terms);
-    file_name = name+".json"
     // Get the data again
+
     d3.json("terms.json", function(error, data) {
         data = data_filter(data, terms);
         console.log(data);
@@ -235,7 +235,7 @@ function update() {
         x0.domain(categoriesNames);
         x1.domain(rateNames).rangeRoundBands([0, x0.rangeBand()]);
         y.domain([0, d3.max(data, function(categorie) { return d3.max(categorie.values, function(d) { return d.value; }); })]);
-        svg.selectAll("rect").remove()
+        svg.selectAll("rect").remove();
         var slice = d3.selectAll("g.term")
         .data(data)
         .attr("transform",function(d) { return "translate(" + x0(d.categorie) + ",0)"; });
@@ -257,24 +257,13 @@ function update() {
 
         console.log(slice);
 
-        //slice.selectAll("rect")
-        //    .transition()
-        //    .delay(function (d) {return Math.random()*1000;})
-        //    .duration(1000)
-        //    .attr("y", function(d) { return y(0); })
-         //   .attr("height", function(d) { return height - y(0); });
-
         slice.selectAll("rect")
             .transition()
             .delay(function (d) {return Math.random()*1000;})
             .duration(1000)
             .attr("y", function(d) { return y(d.value); })
             .attr("height", function(d) { return height - y(d.value); });
-
-        slice.selectAll("rect")
-        .data(function(d) { return d.values; })
-        .exit().transition()
-        .remove();
+    
 
         //Legend
         svg.selectAll(".legend").selectAll("rect").remove();
