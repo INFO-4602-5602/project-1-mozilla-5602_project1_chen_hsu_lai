@@ -22,7 +22,7 @@ I first select the columns containing language and tech terms. Then, I compute t
 Grouped bar chart: https://bl.ocks.org/bricedev/0d95074b6d83a77dc3ad
 Multiple Select: https://www.jqueryscript.net/form/jQuery-Plugin-For-Easy-Select-Button-Group-ui-choose.html
 
-## 2.Smart devices owned by respective countries
+## 2. Smart devices owned by respective countries
 ![plot](https://i.imgur.com/AQnVWQL.png)
 ### Overview
 This chart shows the counts of various smart devices owned by respective countries.
