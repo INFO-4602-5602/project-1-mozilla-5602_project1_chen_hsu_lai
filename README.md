@@ -1,5 +1,5 @@
 # Projoect 1
-Our group has tree plots.
+Our group has three visualizations.
 ## Team Members
 Group 3: Viv Lai, Chao-Chun Hsu, & Yichen Wang
 
