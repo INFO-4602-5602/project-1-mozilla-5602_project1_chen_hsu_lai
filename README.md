@@ -41,7 +41,9 @@ Some of the regions e.g., most of french-owned places are not included in `world
 The source code is modified from this repo (https://gist.github.com/micahstubbs/8e15870eb432a21f0bc4d3d527b2d14f).
 
 ## Your team roles for each individual 
-
+Chao-Chun Hsu: Languages used and the technical terms understanding
+Vivian Lai: Smart devices owned by respective countries
+Yichen Wang: Top factors affecting technology devices buying decisions in different countries
 ## How to run your code
 It's the same as in class acitivity.
 `python -m http.server`
