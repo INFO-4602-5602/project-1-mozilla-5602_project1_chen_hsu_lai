@@ -1,0 +1,1395 @@
+{
+    "USA": {
+        "appliance": 42336,
+        "laptop": 16331,
+        "phone": 8859,
+        "tv": 4186,
+        "fitness": 2326
+    },
+    "CAN": {
+        "appliance": 8926,
+        "laptop": 3264,
+        "phone": 1653,
+        "tv": 652,
+        "fitness": 153
+    },
+    "GBR": {
+        "appliance": 10366,
+        "laptop": 4134,
+        "phone": 2310,
+        "tv": 774,
+        "fitness": 382
+    },
+    "FRA": {
+        "appliance": 55502,
+        "laptop": 26301,
+        "phone": 7650,
+        "tv": 3092,
+        "fitness": 1199
+    },
+    "FIN": {
+        "appliance": 430,
+        "laptop": 201,
+        "phone": 84,
+        "tv": 50,
+        "fitness": 7
+    },
+    "MYS": {
+        "appliance": 601,
+        "laptop": 276,
+        "phone": 85,
+        "tv": 53,
+        "fitness": 20
+    },
+    "TWN": {
+        "appliance": 106,
+        "laptop": 44,
+        "phone": 16,
+        "tv": 15,
+        "fitness": 3
+    },
+    "IND": {
+        "appliance": 8966,
+        "laptop": 3713,
+        "phone": 1249,
+        "tv": 674,
+        "fitness": 292
+    },
+    "HKG": {
+        "appliance": 151,
+        "laptop": 70,
+        "phone": 30,
+        "tv": 20,
+        "fitness": 4
+    },
+    "IDN": {
+        "appliance": 1752,
+        "laptop": 720,
+        "phone": 206,
+        "tv": 91,
+        "fitness": 69
+    },
+    "MEX": {
+        "appliance": 12686,
+        "laptop": 5942,
+        "phone": 3676,
+        "tv": 583,
+        "fitness": 566
+    },
+    "BOL": {
+        "appliance": 747,
+        "laptop": 315,
+        "phone": 158,
+        "tv": 29,
+        "fitness": 24
+    },
+    "UKR": {
+        "appliance": 145,
+        "laptop": 66,
+        "phone": 25,
+        "tv": 11,
+        "fitness": 2
+    },
+    "168": {
+        "appliance": 9,
+        "laptop": 3,
+        "phone": 2,
+        "tv": 2,
+        "fitness": 1
+    },
+    "BGD": {
+        "appliance": 1024,
+        "laptop": 340,
+        "phone": 129,
+        "tv": 62,
+        "fitness": 44
+    },
+    "AUS": {
+        "appliance": 4728,
+        "laptop": 2033,
+        "phone": 1025,
+        "tv": 440,
+        "fitness": 59
+    },
+    "PAK": {
+        "appliance": 740,
+        "laptop": 266,
+        "phone": 103,
+        "tv": 42,
+        "fitness": 27
+    },
+    "EGY": {
+        "appliance": 312,
+        "laptop": 113,
+        "phone": 44,
+        "tv": 14,
+        "fitness": 9
+    },
+    "DEU": {
+        "appliance": 50360,
+        "laptop": 21082,
+        "phone": 10399,
+        "tv": 2904,
+        "fitness": 1463
+    },
+    "TUN": {
+        "appliance": 483,
+        "laptop": 179,
+        "phone": 82,
+        "tv": 19,
+        "fitness": 14
+    },
+    "PRT": {
+        "appliance": 640,
+        "laptop": 269,
+        "phone": 111,
+        "tv": 40,
+        "fitness": 7
+    },
+    "URY": {
+        "appliance": 876,
+        "laptop": 389,
+        "phone": 180,
+        "tv": 17,
+        "fitness": 23
+    },
+    "LBN": {
+        "appliance": 92,
+        "laptop": 41,
+        "phone": 13,
+        "tv": 4,
+        "fitness": 1
+    },
+    "GRC": {
+        "appliance": 792,
+        "laptop": 347,
+        "phone": 142,
+        "tv": 38,
+        "fitness": 8
+    },
+    "KEN": {
+        "appliance": 491,
+        "laptop": 239,
+        "phone": 103,
+        "tv": 23,
+        "fitness": 15
+    },
+    "IRN": {
+        "appliance": 590,
+        "laptop": 220,
+        "phone": 105,
+        "tv": 49,
+        "fitness": 16
+    },
+    "PHL": {
+        "appliance": 860,
+        "laptop": 363,
+        "phone": 155,
+        "tv": 40,
+        "fitness": 20
+    },
+    "SRB": {
+        "appliance": 366,
+        "laptop": 164,
+        "phone": 62,
+        "tv": 18,
+        "fitness": 6
+    },
+    "PAN": {
+        "appliance": 305,
+        "laptop": 144,
+        "phone": 74,
+        "tv": 9,
+        "fitness": 6
+    },
+    "LUX": {
+        "appliance": 455,
+        "laptop": 192,
+        "phone": 81,
+        "tv": 31,
+        "fitness": 6
+    },
+    "NGA": {
+        "appliance": 439,
+        "laptop": 218,
+        "phone": 55,
+        "tv": 17,
+        "fitness": 11
+    },
+    "SWE": {
+        "appliance": 730,
+        "laptop": 307,
+        "phone": 142,
+        "tv": 60,
+        "fitness": 12
+    },
+    "KHM": {
+        "appliance": 81,
+        "laptop": 31,
+        "phone": 11,
+        "tv": 4,
+        "fitness": 2
+    },
+    "TUR": {
+        "appliance": 305,
+        "laptop": 136,
+        "phone": 76,
+        "tv": 25,
+        "fitness": 5
+    },
+    "NOR": {
+        "appliance": 531,
+        "laptop": 226,
+        "phone": 114,
+        "tv": 47,
+        "fitness": 15
+    },
+    "LKA": {
+        "appliance": 203,
+        "laptop": 87,
+        "phone": 26,
+        "tv": 7,
+        "fitness": 6
+    },
+    "CHE": {
+        "appliance": 7627,
+        "laptop": 3162,
+        "phone": 1525,
+        "tv": 529,
+        "fitness": 123
+    },
+    "POL": {
+        "appliance": 394,
+        "laptop": 170,
+        "phone": 68,
+        "tv": 27,
+        "fitness": 12
+    },
+    "BRA": {
+        "appliance": 27009,
+        "laptop": 11580,
+        "phone": 6466,
+        "tv": 991,
+        "fitness": 533
+    },
+    "ARG": {
+        "appliance": 5880,
+        "laptop": 2696,
+        "phone": 1625,
+        "tv": 165,
+        "fitness": 147
+    },
+    "LVA": {
+        "appliance": 68,
+        "laptop": 36,
+        "phone": 14,
+        "tv": 5,
+        "fitness": 1
+    },
+    "ITA": {
+        "appliance": 53769,
+        "laptop": 25184,
+        "phone": 11372,
+        "tv": 3154,
+        "fitness": 1230
+    },
+    "LTU": {
+        "appliance": 142,
+        "laptop": 63,
+        "phone": 31,
+        "tv": 11,
+        "fitness": 3
+    },
+    "HRV": {
+        "appliance": 360,
+        "laptop": 163,
+        "phone": 73,
+        "tv": 26,
+        "fitness": 5
+    },
+    "BEL": {
+        "appliance": 5135,
+        "laptop": 2037,
+        "phone": 926,
+        "tv": 270,
+        "fitness": 96
+    },
+    "AUT": {
+        "appliance": 4415,
+        "laptop": 1876,
+        "phone": 898,
+        "tv": 248,
+        "fitness": 119
+    },
+    "ISR": {
+        "appliance": 313,
+        "laptop": 143,
+        "phone": 44,
+        "tv": 28,
+        "fitness": 10
+    },
+    "PRI": {
+        "appliance": 193,
+        "laptop": 89,
+        "phone": 51,
+        "tv": 11,
+        "fitness": 7
+    },
+    "ZAF": {
+        "appliance": 915,
+        "laptop": 430,
+        "phone": 142,
+        "tv": 90,
+        "fitness": 13
+    },
+    "IRQ": {
+        "appliance": 66,
+        "laptop": 23,
+        "phone": 12,
+        "tv": 3,
+        "fitness": 3
+    },
+    "NLD": {
+        "appliance": 1592,
+        "laptop": 656,
+        "phone": 327,
+        "tv": 100,
+        "fitness": 27
+    },
+    "JPN": {
+        "appliance": 316,
+        "laptop": 133,
+        "phone": 43,
+        "tv": 28,
+        "fitness": 7
+    },
+    "NPL": {
+        "appliance": 306,
+        "laptop": 106,
+        "phone": 44,
+        "tv": 18,
+        "fitness": 16
+    },
+    "PER": {
+        "appliance": 1660,
+        "laptop": 702,
+        "phone": 475,
+        "tv": 43,
+        "fitness": 65
+    },
+    "THA": {
+        "appliance": 359,
+        "laptop": 146,
+        "phone": 65,
+        "tv": 22,
+        "fitness": 16
+    },
+    "DNK": {
+        "appliance": 452,
+        "laptop": 203,
+        "phone": 87,
+        "tv": 47,
+        "fitness": 8
+    },
+    "SVN": {
+        "appliance": 136,
+        "laptop": 68,
+        "phone": 29,
+        "tv": 8,
+        "fitness": 1
+    },
+    "HUN": {
+        "appliance": 233,
+        "laptop": 98,
+        "phone": 40,
+        "tv": 17,
+        "fitness": 7
+    },
+    "GUY": {
+        "appliance": 29,
+        "laptop": 14,
+        "phone": 7,
+        "tv": 2,
+        "fitness": 2
+    },
+    "ARM": {
+        "appliance": 19,
+        "laptop": 8,
+        "phone": 5,
+        "tv": 1,
+        "fitness": 0
+    },
+    "DZA": {
+        "appliance": 1543,
+        "laptop": 531,
+        "phone": 301,
+        "tv": 54,
+        "fitness": 55
+    },
+    "MAR": {
+        "appliance": 1276,
+        "laptop": 467,
+        "phone": 256,
+        "tv": 61,
+        "fitness": 52
+    },
+    "CIV": {
+        "appliance": 467,
+        "laptop": 208,
+        "phone": 75,
+        "tv": 13,
+        "fitness": 15
+    },
+    "RUS": {
+        "appliance": 351,
+        "laptop": 168,
+        "phone": 49,
+        "tv": 31,
+        "fitness": 6
+    },
+    "BGR": {
+        "appliance": 312,
+        "laptop": 132,
+        "phone": 55,
+        "tv": 16,
+        "fitness": 3
+    },
+    "179": {
+        "appliance": 169,
+        "laptop": 71,
+        "phone": 23,
+        "tv": 10,
+        "fitness": 3
+    },
+    "MLI": {
+        "appliance": 105,
+        "laptop": 40,
+        "phone": 17,
+        "tv": 3,
+        "fitness": 3
+    },
+    "COL": {
+        "appliance": 4384,
+        "laptop": 1972,
+        "phone": 1160,
+        "tv": 181,
+        "fitness": 160
+    },
+    "VEN": {
+        "appliance": 2831,
+        "laptop": 1059,
+        "phone": 279,
+        "tv": 78,
+        "fitness": 108
+    },
+    "NIC": {
+        "appliance": 284,
+        "laptop": 143,
+        "phone": 56,
+        "tv": 5,
+        "fitness": 5
+    },
+    "ECU": {
+        "appliance": 2360,
+        "laptop": 953,
+        "phone": 610,
+        "tv": 79,
+        "fitness": 91
+    },
+    "TGO": {
+        "appliance": 97,
+        "laptop": 46,
+        "phone": 9,
+        "tv": 0,
+        "fitness": 1
+    },
+    "CRI": {
+        "appliance": 887,
+        "laptop": 383,
+        "phone": 185,
+        "tv": 36,
+        "fitness": 39
+    },
+    "181": {
+        "appliance": 34,
+        "laptop": 13,
+        "phone": 0,
+        "tv": 1,
+        "fitness": 3
+    },
+    "CHL": {
+        "appliance": 2789,
+        "laptop": 1236,
+        "phone": 725,
+        "tv": 96,
+        "fitness": 73
+    },
+    "ESP": {
+        "appliance": 11798,
+        "laptop": 5212,
+        "phone": 2620,
+        "tv": 783,
+        "fitness": 222
+    },
+    "GTM": {
+        "appliance": 827,
+        "laptop": 369,
+        "phone": 176,
+        "tv": 44,
+        "fitness": 28
+    },
+    "MDG": {
+        "appliance": 263,
+        "laptop": 133,
+        "phone": 35,
+        "tv": 8,
+        "fitness": 7
+    },
+    "ROU": {
+        "appliance": 771,
+        "laptop": 335,
+        "phone": 148,
+        "tv": 58,
+        "fitness": 21
+    },
+    "BEN": {
+        "appliance": 145,
+        "laptop": 61,
+        "phone": 24,
+        "tv": 6,
+        "fitness": 5
+    },
+    "DOM": {
+        "appliance": 465,
+        "laptop": 199,
+        "phone": 101,
+        "tv": 23,
+        "fitness": 23
+    },
+    "CMR": {
+        "appliance": 401,
+        "laptop": 191,
+        "phone": 30,
+        "tv": 11,
+        "fitness": 14
+    },
+    "BIH": {
+        "appliance": 104,
+        "laptop": 52,
+        "phone": 26,
+        "tv": 2,
+        "fitness": 2
+    },
+    "PRY": {
+        "appliance": 494,
+        "laptop": 239,
+        "phone": 89,
+        "tv": 10,
+        "fitness": 12
+    },
+    "MOZ": {
+        "appliance": 27,
+        "laptop": 18,
+        "phone": 2,
+        "tv": 3,
+        "fitness": 0
+    },
+    "BLR": {
+        "appliance": 52,
+        "laptop": 23,
+        "phone": 9,
+        "tv": 3,
+        "fitness": 0
+    },
+    "173": {
+        "appliance": 101,
+        "laptop": 35,
+        "phone": 19,
+        "tv": 9,
+        "fitness": 4
+    },
+    "GIN": {
+        "appliance": 54,
+        "laptop": 24,
+        "phone": 7,
+        "tv": 0,
+        "fitness": 2
+    },
+    "NCL": {
+        "appliance": 267,
+        "laptop": 120,
+        "phone": 41,
+        "tv": 9,
+        "fitness": 5
+    },
+    "HND": {
+        "appliance": 392,
+        "laptop": 173,
+        "phone": 98,
+        "tv": 18,
+        "fitness": 16
+    },
+    "153": {
+        "appliance": 133,
+        "laptop": 55,
+        "phone": 28,
+        "tv": 7,
+        "fitness": 3
+    },
+    "HTI": {
+        "appliance": 41,
+        "laptop": 20,
+        "phone": 3,
+        "tv": 0,
+        "fitness": 2
+    },
+    "MKD": {
+        "appliance": 60,
+        "laptop": 26,
+        "phone": 8,
+        "tv": 1,
+        "fitness": 2
+    },
+    "SLV": {
+        "appliance": 663,
+        "laptop": 314,
+        "phone": 172,
+        "tv": 19,
+        "fitness": 30
+    },
+    "CUB": {
+        "appliance": 105,
+        "laptop": 45,
+        "phone": 2,
+        "tv": 0,
+        "fitness": 3
+    },
+    "ETH": {
+        "appliance": 70,
+        "laptop": 23,
+        "phone": 5,
+        "tv": 4,
+        "fitness": 4
+    },
+    "CHN": {
+        "appliance": 208,
+        "laptop": 92,
+        "phone": 39,
+        "tv": 14,
+        "fitness": 6
+    },
+    "DJI": {
+        "appliance": 10,
+        "laptop": 3,
+        "phone": 1,
+        "tv": 0,
+        "fitness": 0
+    },
+    "ALB": {
+        "appliance": 121,
+        "laptop": 53,
+        "phone": 28,
+        "tv": 4,
+        "fitness": 2
+    },
+    "CZE": {
+        "appliance": 290,
+        "laptop": 130,
+        "phone": 55,
+        "tv": 15,
+        "fitness": 1
+    },
+    "NZL": {
+        "appliance": 1102,
+        "laptop": 466,
+        "phone": 224,
+        "tv": 72,
+        "fitness": 12
+    },
+    "JOR": {
+        "appliance": 55,
+        "laptop": 24,
+        "phone": 8,
+        "tv": 1,
+        "fitness": 2
+    },
+    "SAU": {
+        "appliance": 175,
+        "laptop": 77,
+        "phone": 31,
+        "tv": 13,
+        "fitness": 2
+    },
+    "AGO": {
+        "appliance": 35,
+        "laptop": 18,
+        "phone": 7,
+        "tv": 4,
+        "fitness": 3
+    },
+    "TTO": {
+        "appliance": 65,
+        "laptop": 30,
+        "phone": 20,
+        "tv": 4,
+        "fitness": 1
+    },
+    "IRL": {
+        "appliance": 733,
+        "laptop": 323,
+        "phone": 124,
+        "tv": 56,
+        "fitness": 12
+    },
+    "211": {
+        "appliance": 31,
+        "laptop": 12,
+        "phone": 6,
+        "tv": 1,
+        "fitness": 0
+    },
+    "GAB": {
+        "appliance": 82,
+        "laptop": 45,
+        "phone": 5,
+        "tv": 2,
+        "fitness": 3
+    },
+    "163": {
+        "appliance": 38,
+        "laptop": 17,
+        "phone": 6,
+        "tv": 2,
+        "fitness": 2
+    },
+    "EST": {
+        "appliance": 99,
+        "laptop": 48,
+        "phone": 20,
+        "tv": 12,
+        "fitness": 1
+    },
+    "CYP": {
+        "appliance": 72,
+        "laptop": 32,
+        "phone": 15,
+        "tv": 10,
+        "fitness": 0
+    },
+    "ARE": {
+        "appliance": 321,
+        "laptop": 130,
+        "phone": 66,
+        "tv": 36,
+        "fitness": 5
+    },
+    "LBY": {
+        "appliance": 3,
+        "laptop": 1,
+        "phone": 0,
+        "tv": 0,
+        "fitness": 0
+    },
+    "UGA": {
+        "appliance": 100,
+        "laptop": 52,
+        "phone": 7,
+        "tv": 3,
+        "fitness": 1
+    },
+    "TZA": {
+        "appliance": 114,
+        "laptop": 51,
+        "phone": 16,
+        "tv": 9,
+        "fitness": 6
+    },
+    "SGP": {
+        "appliance": 369,
+        "laptop": 159,
+        "phone": 91,
+        "tv": 43,
+        "fitness": 17
+    },
+    "ISL": {
+        "appliance": 53,
+        "laptop": 26,
+        "phone": 14,
+        "tv": 5,
+        "fitness": 3
+    },
+    "SVK": {
+        "appliance": 136,
+        "laptop": 57,
+        "phone": 25,
+        "tv": 9,
+        "fitness": 0
+    },
+    "204": {
+        "appliance": 24,
+        "laptop": 9,
+        "phone": 6,
+        "tv": 4,
+        "fitness": 1
+    },
+    "SDN": {
+        "appliance": 36,
+        "laptop": 14,
+        "phone": 3,
+        "tv": 2,
+        "fitness": 2
+    },
+    "195": {
+        "appliance": 30,
+        "laptop": 12,
+        "phone": 5,
+        "tv": 4,
+        "fitness": 1
+    },
+    "QAT": {
+        "appliance": 59,
+        "laptop": 28,
+        "phone": 11,
+        "tv": 5,
+        "fitness": 1
+    },
+    "BLZ": {
+        "appliance": 20,
+        "laptop": 9,
+        "phone": 4,
+        "tv": 1,
+        "fitness": 0
+    },
+    "GHA": {
+        "appliance": 177,
+        "laptop": 75,
+        "phone": 25,
+        "tv": 6,
+        "fitness": 10
+    },
+    "NAM": {
+        "appliance": 42,
+        "laptop": 16,
+        "phone": 6,
+        "tv": 2,
+        "fitness": 2
+    },
+    "188": {
+        "appliance": 4,
+        "laptop": 1,
+        "phone": 0,
+        "tv": 0,
+        "fitness": 0
+    },
+    "180": {
+        "appliance": 26,
+        "laptop": 12,
+        "phone": 5,
+        "tv": 5,
+        "fitness": 2
+    },
+    "ZMB": {
+        "appliance": 47,
+        "laptop": 21,
+        "phone": 4,
+        "tv": 3,
+        "fitness": 1
+    },
+    "216": {
+        "appliance": 1,
+        "laptop": 1,
+        "phone": 0,
+        "tv": 0,
+        "fitness": 0
+    },
+    "ZWE": {
+        "appliance": 95,
+        "laptop": 48,
+        "phone": 12,
+        "tv": 6,
+        "fitness": 0
+    },
+    "OMN": {
+        "appliance": 32,
+        "laptop": 14,
+        "phone": 6,
+        "tv": 2,
+        "fitness": 1
+    },
+    "GEO": {
+        "appliance": 25,
+        "laptop": 9,
+        "phone": 3,
+        "tv": 1,
+        "fitness": 2
+    },
+    "LBR": {
+        "appliance": 17,
+        "laptop": 8,
+        "phone": 3,
+        "tv": 1,
+        "fitness": 1
+    },
+    "JAM": {
+        "appliance": 47,
+        "laptop": 27,
+        "phone": 10,
+        "tv": 1,
+        "fitness": 1
+    },
+    "FJI": {
+        "appliance": 36,
+        "laptop": 16,
+        "phone": 6,
+        "tv": 2,
+        "fitness": 1
+    },
+    "COD": {
+        "appliance": 85,
+        "laptop": 36,
+        "phone": 13,
+        "tv": 2,
+        "fitness": 3
+    },
+    "RWA": {
+        "appliance": 27,
+        "laptop": 12,
+        "phone": 2,
+        "tv": 2,
+        "fitness": 1
+    },
+    "PNG": {
+        "appliance": 15,
+        "laptop": 8,
+        "phone": 0,
+        "tv": 0,
+        "fitness": 0
+    },
+    "KOR": {
+        "appliance": 98,
+        "laptop": 41,
+        "phone": 9,
+        "tv": 10,
+        "fitness": 2
+    },
+    "MWI": {
+        "appliance": 24,
+        "laptop": 11,
+        "phone": 4,
+        "tv": 0,
+        "fitness": 0
+    },
+    "SEN": {
+        "appliance": 282,
+        "laptop": 118,
+        "phone": 37,
+        "tv": 12,
+        "fitness": 12
+    },
+    "BFA": {
+        "appliance": 82,
+        "laptop": 39,
+        "phone": 11,
+        "tv": 2,
+        "fitness": 2
+    },
+    "NER": {
+        "appliance": 37,
+        "laptop": 16,
+        "phone": 2,
+        "tv": 1,
+        "fitness": 3
+    },
+    "227": {
+        "appliance": 9,
+        "laptop": 5,
+        "phone": 0,
+        "tv": 0,
+        "fitness": 0
+    },
+    "MDA": {
+        "appliance": 22,
+        "laptop": 10,
+        "phone": 3,
+        "tv": 0,
+        "fitness": 1
+    },
+    "232": {
+        "appliance": 2,
+        "laptop": 1,
+        "phone": 1,
+        "tv": 0,
+        "fitness": 0
+    },
+    "SLB": {
+        "appliance": 3,
+        "laptop": 1,
+        "phone": 1,
+        "tv": 0,
+        "fitness": 0
+    },
+    "191": {
+        "appliance": 2,
+        "laptop": 0,
+        "phone": 0,
+        "tv": 0,
+        "fitness": 0
+    },
+    "VNM": {
+        "appliance": 185,
+        "laptop": 83,
+        "phone": 44,
+        "tv": 6,
+        "fitness": 3
+    },
+    "MMR": {
+        "appliance": 122,
+        "laptop": 48,
+        "phone": 12,
+        "tv": 6,
+        "fitness": 3
+    },
+    "AFG": {
+        "appliance": 14,
+        "laptop": 4,
+        "phone": 2,
+        "tv": 0,
+        "fitness": 0
+    },
+    "174": {
+        "appliance": 24,
+        "laptop": 9,
+        "phone": 4,
+        "tv": 1,
+        "fitness": 0
+    },
+    "KAZ": {
+        "appliance": 17,
+        "laptop": 8,
+        "phone": 4,
+        "tv": 3,
+        "fitness": 1
+    },
+    "KWT": {
+        "appliance": 37,
+        "laptop": 18,
+        "phone": 5,
+        "tv": 3,
+        "fitness": 0
+    },
+    "BTN": {
+        "appliance": 6,
+        "laptop": 2,
+        "phone": 2,
+        "tv": 0,
+        "fitness": 0
+    },
+    "SWZ": {
+        "appliance": 9,
+        "laptop": 5,
+        "phone": 1,
+        "tv": 1,
+        "fitness": 0
+    },
+    "LSO": {
+        "appliance": 4,
+        "laptop": 4,
+        "phone": 1,
+        "tv": 1,
+        "fitness": 0
+    },
+    "LAO": {
+        "appliance": 13,
+        "laptop": 4,
+        "phone": 1,
+        "tv": 2,
+        "fitness": 1
+    },
+    "SOM": {
+        "appliance": 8,
+        "laptop": 1,
+        "phone": 0,
+        "tv": 0,
+        "fitness": 0
+    },
+    "199": {
+        "appliance": 25,
+        "laptop": 9,
+        "phone": 4,
+        "tv": 1,
+        "fitness": 1
+    },
+    "BWA": {
+        "appliance": 21,
+        "laptop": 12,
+        "phone": 3,
+        "tv": 1,
+        "fitness": 0
+    },
+    "SYR": {
+        "appliance": 24,
+        "laptop": 10,
+        "phone": 3,
+        "tv": 1,
+        "fitness": 0
+    },
+    "GNQ": {
+        "appliance": 12,
+        "laptop": 4,
+        "phone": 1,
+        "tv": 2,
+        "fitness": 2
+    },
+    "TCD": {
+        "appliance": 20,
+        "laptop": 7,
+        "phone": 2,
+        "tv": 0,
+        "fitness": 0
+    },
+    "BDI": {
+        "appliance": 24,
+        "laptop": 15,
+        "phone": 2,
+        "tv": 0,
+        "fitness": 1
+    },
+    "SLE": {
+        "appliance": 13,
+        "laptop": 5,
+        "phone": 2,
+        "tv": 1,
+        "fitness": 1
+    },
+    "MRT": {
+        "appliance": 10,
+        "laptop": 4,
+        "phone": 3,
+        "tv": 0,
+        "fitness": 0
+    },
+    "212": {
+        "appliance": 47,
+        "laptop": 19,
+        "phone": 6,
+        "tv": 3,
+        "fitness": 1
+    },
+    "169": {
+        "appliance": 6,
+        "laptop": 4,
+        "phone": 0,
+        "tv": 0,
+        "fitness": 0
+    },
+    "198": {
+        "appliance": 20,
+        "laptop": 7,
+        "phone": 3,
+        "tv": 3,
+        "fitness": 1
+    },
+    "MNE": {
+        "appliance": 32,
+        "laptop": 13,
+        "phone": 9,
+        "tv": 4,
+        "fitness": 2
+    },
+    "MNG": {
+        "appliance": 37,
+        "laptop": 12,
+        "phone": 6,
+        "tv": 4,
+        "fitness": 5
+    },
+    "197": {
+        "appliance": 2,
+        "laptop": 0,
+        "phone": 0,
+        "tv": 0,
+        "fitness": 0
+    },
+    "214": {
+        "appliance": 4,
+        "laptop": 2,
+        "phone": 1,
+        "tv": 0,
+        "fitness": 0
+    },
+    "YEM": {
+        "appliance": 5,
+        "laptop": 1,
+        "phone": 0,
+        "tv": 0,
+        "fitness": 0
+    },
+    "UZB": {
+        "appliance": 2,
+        "laptop": 1,
+        "phone": 0,
+        "tv": 0,
+        "fitness": 0
+    },
+    "210": {
+        "appliance": 20,
+        "laptop": 8,
+        "phone": 4,
+        "tv": 0,
+        "fitness": 0
+    },
+    "207": {
+        "appliance": 4,
+        "laptop": 2,
+        "phone": 1,
+        "tv": 0,
+        "fitness": 0
+    },
+    "192": {
+        "appliance": 5,
+        "laptop": 2,
+        "phone": 1,
+        "tv": 0,
+        "fitness": 0
+    },
+    "SUR": {
+        "appliance": 6,
+        "laptop": 2,
+        "phone": 1,
+        "tv": 1,
+        "fitness": 1
+    },
+    "160": {
+        "appliance": 6,
+        "laptop": 1,
+        "phone": 1,
+        "tv": 0,
+        "fitness": 0
+    },
+    "206": {
+        "appliance": 4,
+        "laptop": 2,
+        "phone": 2,
+        "tv": 1,
+        "fitness": 1
+    },
+    "196": {
+        "appliance": 6,
+        "laptop": 3,
+        "phone": 1,
+        "tv": 1,
+        "fitness": 1
+    },
+    "209": {
+        "appliance": 3,
+        "laptop": 1,
+        "phone": 0,
+        "tv": 0,
+        "fitness": 0
+    },
+    "CAF": {
+        "appliance": 2,
+        "laptop": 1,
+        "phone": 0,
+        "tv": 0,
+        "fitness": 0
+    },
+    "VUT": {
+        "appliance": 5,
+        "laptop": 2,
+        "phone": 1,
+        "tv": 0,
+        "fitness": 1
+    },
+    "AZE": {
+        "appliance": 5,
+        "laptop": 2,
+        "phone": 2,
+        "tv": 1,
+        "fitness": 1
+    },
+    "SDS": {
+        "appliance": 1,
+        "laptop": 1,
+        "phone": 0,
+        "tv": 0,
+        "fitness": 0
+    },
+    "186": {
+        "appliance": 1,
+        "laptop": 0,
+        "phone": 1,
+        "tv": 0,
+        "fitness": 0
+    },
+    "203": {
+        "appliance": 2,
+        "laptop": 1,
+        "phone": 1,
+        "tv": 0,
+        "fitness": 0
+    },
+    "187": {
+        "appliance": 4,
+        "laptop": 2,
+        "phone": 1,
+        "tv": 0,
+        "fitness": 0
+    },
+    "190": {
+        "appliance": 3,
+        "laptop": 1,
+        "phone": 1,
+        "tv": 0,
+        "fitness": 0
+    },
+    "213": {
+        "appliance": 1,
+        "laptop": 1,
+        "phone": 0,
+        "tv": 0,
+        "fitness": 0
+    },
+    "TJK": {
+        "appliance": 2,
+        "laptop": 1,
+        "phone": 1,
+        "tv": 0,
+        "fitness": 0
+    },
+    "220": {
+        "appliance": 0,
+        "laptop": 0,
+        "phone": 0,
+        "tv": 0,
+        "fitness": 0
+    },
+    "193": {
+        "appliance": 2,
+        "laptop": 1,
+        "phone": 0,
+        "tv": 0,
+        "fitness": 0
+    },
+    "221": {
+        "appliance": 2,
+        "laptop": 1,
+        "phone": 0,
+        "tv": 0,
+        "fitness": 0
+    },
+    "KGZ": {
+        "appliance": 2,
+        "laptop": 1,
+        "phone": 0,
+        "tv": 0,
+        "fitness": 0
+    },
+    "202": {
+        "appliance": 1,
+        "laptop": 1,
+        "phone": 0,
+        "tv": 0,
+        "fitness": 0
+    }
+}

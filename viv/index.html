@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+  .names {
+    fill: none;
+    stroke: #fff;
+    stroke-linejoin: round;
+  }
+
+  /* Tooltip CSS */
+  .d3-tip {
+    line-height: 1.5;
+    font-weight: 400;
+    font-family:"avenir next", Arial, sans-serif;
+    padding: 6px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #FFA500;
+    border-radius: 1px;
+    pointer-events: none;
+  }
+
+  /* Creates a small triangle extender for the tooltip */
+  .d3-tip:after {      
+    box-sizing: border-box;
+    display: inline;
+    font-size: 8px;
+    width: 100%;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    pointer-events: none;
+    
+  }
+
+  /* Northward tooltips */
+  .d3-tip.n:after {
+    content: "\25BC";
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+    text-align: center;
+  }
+
+  /* Eastward tooltips */
+  .d3-tip.e:after {
+    content: "\25C0";
+    margin: -4px 0 0 0;
+    top: 50%;
+    left: -8px;
+  }
+
+  /* Southward tooltips */
+  .d3-tip.s:after {
+    content: "\25B2";
+    margin: 0 0 1px 0;
+    top: -8px;
+    left: 0;
+    text-align: center;
+  }
+
+  /* Westward tooltips */
+  .d3-tip.w:after {
+    content: "\25B6";
+    margin: -4px 0 0 -1px;
+    top: 50%;
+    left: 100%;
+  }
+
+  .details{
+    color:white;
+  }
+
+  .nav {
+      position: relative;
+      text-align: center;
+      padding: 20px;
+      transition: all ease .5s;
+      transform: translate3d(0,0,0);
+      z-index: 1;
+      display: inline-block;
+  }
+
+  .circle {
+    background-size: cover;
+    border-radius:50% 50% 50% 50%;
+    width:100px;
+    height:100px;
+    border: 3px dashed #cfcfcf;
+  }
+
+  .tv {
+    background-image: url("smart-tv.jpeg");
+  }
+
+  .phone {
+    background-image: url("smart-phone.jpeg");
+  }
+
+  .appliance {
+    background-image: url("smart-appliance.jpeg");
+  }
+
+  .fitness {
+    background-image: url("fitness-tracker.jpeg");
+  }
+
+  .laptop {
+    background-image: url("laptop.jpeg");
+  }
+
+  .bubble {
+    fill-opacity: 0.2;
+    stroke: black;
+    stroke-width: 0.5;
+    vector-effect: non-scaling-stroke;
+  } 
+
+  ul {
+    margin-left:100px;
+  }
+
+</style>
+
+<body>
+
+<ul>
+  <li id = "tv" class="nav"><div class="circle tv"></div>smart TVs</li>
+  <li id = "fitness" class="nav"><div class="circle fitness"></div>fitness trackers</li>
+  <li id = "appliance" class="nav"><div class="circle appliance"></div>smart appliances</li>
+  <li id = "laptop" class="nav"><div class="circle laptop"></div>laptops</li>
+  <li id = "phone" class="nav"><div class="circle phone"></div>smart phones</li>
+</ul>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+<script src="https://d3js.org/d3-selection-multi.v0.4.min.js"></script>
+<script src="d3-tip.js"></script>
+
+<script>
+
+var format = d3.format(",");
+
+var margin = {top: 200, right: 0, bottom: 0, left: 0},
+            width = 960 - margin.left - margin.right,
+            height = 850 - margin.top - margin.bottom;
+
+queue()
+    .defer(d3.json, "world_countries.json")
+    .defer(d3.json, "data.json")
+    .defer(d3.tsv, "world_population.tsv")
+    .await(ready);
+
+function ready(error, countryGeoData, deviceSampleData, population) {
+
+  if(error)
+    console.log(error);
+
+  countryGeoData.features.forEach(function(feature) { 
+      if(deviceSampleData[feature.id])
+        feature.device =  deviceSampleData[feature.id];
+      else
+        feature.device =  JSON.parse('{ "phone":0, "tv":0, "fitness":0, "appliance":0, "laptop":0}');
+      //console.log(feature.device);
+  });
+
+  /*
+  ** Append the population data and set the tool tip
+  */
+
+  var populationById = {};
+
+  population.forEach(function(d) { populationById[d.id] = +d.population; });
+  countryGeoData.features.forEach(function(feature) { 
+    feature.population = populationById[feature.id];
+  });
+
+  var tip = d3.tip()
+            .attr('class', 'd3-tip')
+            .offset([-10, 0])
+            .html(function(d) {
+              return "<strong>Country: </strong><span class='details'>" + d.properties.name + "<br></span>" + "<strong>Count: </strong><span class='details'>" + format(d.device[d.chosen]) +"</span>";
+            })
+
+
+  /*
+  ** draw the five clickable nav circles
+  ** add event handler on mouse clicks
+  */
+  var nav_svg = d3.selectAll(".nav")
+                  .on("click", handleMouseClick)
+
+  function handleMouseClick(d) {
+    
+      // clean the previous bubbles
+      d3.selectAll("#toBeRemoved").remove();
+
+      /*
+      ** draw the bubbles onClick
+      */
+      
+      // get the device name
+      var selected_device = this.id;
+
+      // radius is a function that helps you calculate the radius of bubbles according to population
+      var radius = d3.scaleSqrt().range([0, 50]); 
+      radius.domain([
+        0, d3.max(countryGeoData.features, function(feature) {
+          return feature.device[selected_device];
+        })
+      ]);
+
+      // calculate the centroids's position on screen
+      // using the same projection/path you defined before
+      centroidById = {};
+      countryGeoData.features.forEach(function (feature){
+        centroidById[feature.id] = path.centroid(feature);
+      });
+      countryGeoData.features.forEach(function(feature) { feature.centroid = centroidById[feature.id]; });
+
+      var colorData = {'phone':"#1f77b4", 'tv':"#ff7f0e", 'fitness':"#2ca02c", 'appliance':"#d62728", 'laptop':"#8c564b"};
+
+      var bubbles = svg
+          .append("g")
+          .attr("id", "toBeRemoved")
+          .selectAll('.bubble')
+          .data(countryGeoData.features)
+          .enter()
+          .append("circle")
+          .attr("fill", colorData[selected_device])
+          .attr("opacity", 0.5)
+          .on('mouseover', function(d) {
+            d['chosen'] = selected_device
+            tip.show(d)
+            //console.log(d)
+            d3.select(this)
+              .style("opacity", 1)
+              .style("stroke","white")
+              .style("stroke-width",3);
+          })
+          .on('mouseout', function(d){
+            tip.hide(d);
+            d3.select(this)
+              .style("opacity", 0.8)
+              .style("stroke","white")
+              .style("stroke-width",0.3);
+          })
+          .attr("r", function(d){return radius(d.device[selected_device]);})
+          .attr("cx", function(d){ return d.centroid[0]; })
+          .attr("cy", function(d){ return d.centroid[1]; });
+    }
+
+
+  /*
+  ** Draw the main svg
+  */
+  var svg = d3.select("body")
+              .append("svg")
+              .attr("width", width)
+              .attr("height", height)
+              .append('g')
+              .attr('class', 'map');
+
+  
+  /*
+  ** Draw the tool tip
+  */
+  svg.call(tip);
+
+
+  /*
+  ** Draw the map
+  */
+  var projection = d3.geoMercator()
+                     .scale(130)
+                    .translate( [width / 2, height / 1.5]);
+
+  var path = d3.geoPath().projection(projection);
+
+  map = svg
+    .append("g")
+    .attr("class", "countries")
+    .selectAll("path")
+    .data(countryGeoData.features)
+    .enter().append("path")
+    .attr("d", path)
+    .style("fill", "#cfcfcf")
+    .style('stroke', 'white')
+    .style('stroke-width', 1.5)
+    .style("opacity",0.8)
+    // tooltips
+    .style("stroke","white")
+    .style('stroke-width', 0.3);
+
+  svg.append("path")
+      .datum(topojson.mesh(countryGeoData.features, function(a, b) { return a.id !== b.id; }))
+      .attr("class", "names")
+      .attr("d", path);
+
+  
+}
+
+</script>
+
+</body>
+</html>
