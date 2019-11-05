@@ -4,7 +4,7 @@ Our group has tree plots.
 Group 3: Viv Lai, Chao-Chun Hsu, & Yichen Wang
 
 ## 1. Languages used and the technical terms understanding
-![plot](https://imgur.com/IcpBaCQ)
+![plot](https://imgur.com/a/UFcKhxc)
 ### Overview
 This plot is to discover the relationship between languages used and the technical terms understanding. At first, all languages are showing in the plot. Users can then selcet sepcific languages to make a clear comparison. 
 
