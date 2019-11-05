@@ -4,7 +4,7 @@ Our group has three visualizations.
 Group 3: Viv Lai, Chao-Chun Hsu, & Yichen Wang
 
 ## 1. Languages used and the technical terms understanding
-![plot](https://i.imgur.com/IcpBaCQ.png)
+![plot](https://i.imgur.com/GIlfGBe.png)
 ### Overview
 This plot is to discover the relationship between languages used and the technical terms understanding. At first, all languages are showing in the plot. Users can then selcet sepcific languages to make a clear comparison. 
 
