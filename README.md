@@ -1,79 +1,28 @@
-# 5602-Mozilla
-*Due November 4, 2019 @ 11:59pm through GitHub Classroom*
+# Projoect 1
+## Team Members
+Group 3: Viv Lai, Chao-Chun Hsu, & Yichen Wang
 
-Projects may be submitted up to 3 days late, with a 10% penalty per day
+## Overview
+Our group has tree plots as follows
+### Introduction ###
+This plot is to discover the relationship between languages used and the technical terms understanding. At first, all languages are showing in the plot. Users can then selcet sepcific languages to make a clear comparison. 
 
-<h2>Overview: </h2>
-Mozilla (the same company that created the Firefox web browser) recently conducted a survey on people's perceptions of privacy in our modern, highly connected world. The survey was aimed at understanding how comfortable people from all over the world are with various technology and how that comfort varies with things like device ownership or tech savvy. You can learn more about their data here: https://blog.mozilla.org/blog/2017/11/01/10-fascinating-things-we-learned-when-we-asked-the-world-how-connected-are-you/?utm_source=newsletter-mofo&utm_medium=email&utm_campaign=IOTsurveyresults&utm_content=callout&utm_term=4434975
+### Design Processing
+The question we want to ask in this visualization is that does language used affect people recive these knowledge of technical terms? For example, if people learn these ideas in Chinese, it would be difficult for them to relate to these English terms even if they are identical. Thus, considering that comparison matters, the bar char would be a perfect choice. We add the interactive languages selection because it is more clear to compare two languages at once and some times people will only care about the language they are interested in. 
 
-The challenge is that, while they have a rich set of data, they don't have strong ways of exploring that data beyond basic spreadsheets and descriptive statistics. Your goal is to create a set of visualizations that allows them to engage with their data. The raw data is available at: https://drive.google.com/file/d/0B5UMbl9u1_wQc2l0ZTU0dTdoYnM/view
+### Obersivation
+After building this representation, we found that people using English and German are more comfortable explaining these terms to their friend. However, when it comes to "connected device", other language users become comparable and even perform better. By exploring the data with our plot, the original hypothesis on "language would be the barrier for people to recognize these terms" do not hold. The future direction would be discover the educational level or network coverage rate for these users.
 
-To do this, create visualizations that illustrate at least two insights into their data. The above blog post has some insights you can use to start thinking about this dataset, but I encourage you to think outside of these ideas as well. 
+### Preprocessing 
+I first select the columns containing language and tech terms. Then, I compute the ratio of people feeling comfortable explaining a tech term to a friend for different language. The code is in `preprocessing.ipynb` which can be opened by jupyter notebook. Notes that original csv file is not included in ths dir because of the size limitation. Please add the original csv to this dir before runing the code.
 
-<h2>Minimum Requirements:</h2> 
-Your project must:
-<ul>
-<li> Include a README.md file that outlines:
-  <ul>
-  <li>Information about your visualizations and what they show. Include information about interactions, preprocesses, and design as appropriate. Note what tasks the visualization allows you to accomplish to derive this insight and how your design is tailored to support these tasks. </li>
-  <li>Your design process (e.g., how did you go about designing, building, and refining your system? Why did you choose these representations?)</li>
-  <li>Your team roles for each individual</li>
-  <li>How to run your project</li></ul></li>
-<li>Include at least two unique visualizations:
-  <ul>
-  <li>One visualization must include some quantitative data</li>
-  <li>One visualization must include categorical data</li>
-  <li>Each visualization must be interactive</li>
-  <li>Your visualizations should support at least one meaningful comparison between related data attributes</li>
-  <li>Your visualizations should visualize at least five data attributes total</li></ul></li>
-<li>Be able to work with any dataset of this format (e.g., the numbers are interchangable but the columns and document titles are fixed).</li>
-</ul>
-
-<h2>Above and Beyond:</h2> 
-The above requirements are the minimum for a passing grade on this project. Some ideas to improve your project include:<ul>
-<li>Unusual Representations: Draw on some of the examples from class to represent data in ways beyond a typical scatterplot or bar chart.</li>
-<li>Style: Keep the style consistent across all your views, with an eye towards intelligently applying visual design.</li>
-<li>Geography: Incorporate maps or other geospatial data components into your visualization.</li>
-<li>Interesting Tasks: Derive insight into the data beyond that provided in Mozilla's current post. Highlight these insights in your readme and describe how the visualization enables them.</li>
-<li>Perceptually-Informed Design: Integrate perceptual concepts into your visualization design and discuss how you've integrated those concepts in your readme.</li>
-<li>Coordinated Views: Have two or more visualizations that interact with one another as you move through the data.</li></ul>
-
-<h2>Platforms:</h2> 
-You can use any development platform you'd like so long as your final project runs in the browser without having to install anything new or is a thoughtfully constructed physicalization (your physicalization does not need to be interactive). Your project readme should include step-by-step instructions on how to run your projects and it should run without me having to modify the code. You are welcome to use different platforms for each visualization.
-
-Some platforms to look at include:
-<ul>
-<li>D3</li>
-<li>R with ggplot</li>
-<li>WebGL or Three.js</li>
-<li>ProcessingJS</li>
-<li>Google Maps API</li>
-<li>Open Street Map API</li>
-<li>Bokeh</li>
-</ul>
-
-If you would like to use a platform that will push you in creative ways but may not support all of the requirements of the project, please come talk to me. 
-
-<h2>Submissions:</h2>
-All submissions must be made through GitHub with a timestamp by 11:59pm on 11.4. Your submission files should include:
-<ul>
-<li>Your README</li>
-<li>Your code and/or project if using a web-based project</li>
-</ul>
-Note that each group only needs to submit one file. 
-
-If you choose to submit a physicalization, please submit that artifact by leaving it at my office by close of business on November 4. You will still need to submit a readme explaining your project.
+### Sources ##
+Grouped bar chart: https://bl.ocks.org/bricedev/0d95074b6d83a77dc3ad
+Multiple Select: https://www.jqueryscript.net/form/jQuery-Plugin-For-Easy-Select-Button-Group-ui-choose.html
 
 
-## Project Teams
-Group 1:	Jess Mailhot, Julia Medeiros, Mike Flanigan, & Jack Hessburg
+## Your team roles for each individual 
 
-Group 2:	Telly Umada, Annebeth Buis, Chandan Naik, & Nishank Sharma
-
-Group 3:	Viv Lai, Chao-Chun Hsu, & Yichen Wang	
-
-Group 4:	Mikhaila Friske, Dianna Radpour, & Abbie Zimmerman-Niefield	
-
-Group 5:	Lan Sang, Ling Liu, & Ziying Zhang	
-
-Group 6	Ahmed Al Hasani, Alex Constinescu, & Pratik Revankar		
+## How to run your code
+It's the same as in class acitivity.
+`python -m http.server`
