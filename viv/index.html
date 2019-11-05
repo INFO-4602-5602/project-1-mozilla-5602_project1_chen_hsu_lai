@@ -247,6 +247,14 @@ function ready(error, countryGeoData, deviceSampleData, population) {
               .style("stroke","white")
               .style("stroke-width",0.3);
           })
+          .attr("r", function(d){return radius(0);})
+          .attr("cx", function(d){ return d.centroid[0]; })
+          .attr("cy", function(d){ return d.centroid[1]; });
+
+          d3.selectAll("circle")
+          .transition()
+          .delay(function (d) {return Math.random()*500;})
+          .duration(900)
           .attr("r", function(d){return radius(d.device[selected_device]);})
           .attr("cx", function(d){ return d.centroid[0]; })
           .attr("cy", function(d){ return d.centroid[1]; });
